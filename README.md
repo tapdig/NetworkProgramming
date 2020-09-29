@@ -1,10 +1,10 @@
 # NetworkProgramming
 This repository contains lab assignments from Network Programming course.
-1. [Lab1](#Lab1)
+1. [Lab1](#lab1)
 
 <a name="Lab1"></a>
 # Lab1
-Create the basic UDP Client-Server console application with simple test messaging from the client to the server with the backoff strategies based on the [Scenario](#Scenario). No need to send media files, just send test messages. 
+Create the basic UDP Client-Server console application with simple test messaging from the client to the server with the backoff strategies based on the [Scenario](#scenario). No need to send media files, just send test messages. 
 
 
 <a  name="Scenario"></a>
