@@ -36,7 +36,7 @@ On the server side, *host* positional argument can be "127.0.0.1" to indicate th
 ``` console
 $ python3 Lab1/udp.py server ""
 ```
- On the client side, *hostname* should be the IP address or the hostname of the machine client wants to connect.
+ On the client side, *hostname* should be the IP address or the hostname of the interface/machine client wants to connect.
  ``` console
  $ python3 Lab1/udp.py client hostname
  ```
