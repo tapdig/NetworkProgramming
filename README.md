@@ -2,12 +2,12 @@
 This repository contains lab assignments from Network Programming course.
 1. [Lab1](#lab1)
 
-<a name="Lab1"></a>
+<a name="lab1"></a>
 # Lab1
 Create the basic UDP Client-Server console application with simple test messaging from the client to the server with the backoff strategies based on the [Scenario](#scenario). No need to send media files, just send test messages. 
 
 
-<a  name="Scenario"></a>
+<a  name="scenario"></a>
 ## Scenario
 Spotify regional server warehouse provides music streaming services for the millions of clients 24/7. Spotify servers responding time depends on clients' load number. That's why, clients must wait for responding with regard to the time schedule: 
 
