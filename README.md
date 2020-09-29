@@ -43,4 +43,5 @@ $ python3 Lab1/udp.py server ""
  ``` console
  $ python3 Lab1/udp.py client hostname
  ```
+ Server can be killed by pressing Ctrl+C
 
