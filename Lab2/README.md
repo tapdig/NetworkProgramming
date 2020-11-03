@@ -5,6 +5,7 @@ Creating the TCP based client-server console application "text_service" where a 
 
 ### Modes:
 **change_text:** The client sends the text and the JSON file to the server. In response, the server must read the json file and swap the words in the text according to the JSON file.
+ 
 **encode_decode:** The client sends the text file and the key (another text) to the server. In response, the server must XOR (Vernam cipher; One-Time Pad) the text message with the key and return it to the client. 
 
 ## Installation
@@ -16,11 +17,11 @@ $ pip install -r requirements.txt
 To see usage and which positional or optional arguments we have in detail:
 ##### For server: 
 ```console
-python3 text_service.py server -h
+$ python3 text_service.py server -h
 ```
 ##### For client:
 ```console
-python3 text_service.py client -h
+$ python3 text_service.py client -h
 ```
 Two terminal windows should be opened. (one for the server side, and another for the client side)
 ### Server
