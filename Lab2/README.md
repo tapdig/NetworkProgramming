@@ -4,7 +4,7 @@ Creating the TCP based client-server console application "text_service" where a 
 ## Scenario
 
 ### Modes:
-**change_text:** The client sends the text and the JSON file to the server. In response, the server must read the json file and swap the words in the text according to the JSON file.
+**change_text:** The client sends the text and the JSON file to the server. In response, the server must read the JSON file and swap the words in the text according to the JSON file.
  
 **encode_decode:** The client sends the text file and the key (another text) to the server. In response, the server must XOR (Vernam cipher; One-Time Pad) the text message with the key and return it to the client. 
 
