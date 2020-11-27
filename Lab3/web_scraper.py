@@ -51,9 +51,7 @@ class Server:
     def process(self, connection, address):
         try:
             URL = connection.recv(4096).decode("ascii")
-            if URL.startswith("http://") or URL.startswith("https://"):
-                pass
-            else:
+            if not URL.startswith("http://") or URL.startswith("https://"):
                 URL = "https://" + f"{URL}"
 
             print(f"Client requested to scrape {URL}")
