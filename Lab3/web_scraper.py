@@ -87,6 +87,7 @@ class Client:
         response = sock.recv(4096)
         img_number, leaf_p_number = response.decode("ascii").split()
         print(f"In {URL}, there are {img_number} <img> and {leaf_p_number} leaf <p> tags.")
+        sock.close()
 
 
 if __name__ == "__main__":
